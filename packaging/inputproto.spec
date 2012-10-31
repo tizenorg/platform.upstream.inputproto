@@ -1,7 +1,3 @@
-#
-# Please submit bugfixes or comments via http://bugs.tizen.org/
-#
-
 Name:           inputproto
 Version:        2.2
 Release:        1
@@ -15,15 +11,13 @@ BuildRequires:  pkgconfig
 BuildRequires:  pkgconfig(xorg-macros)
 
 %description
-Description: %{summary}
+%{summary}
 
 %prep
 %setup -q
 
 %build
-
-./autogen.sh
-%reconfigure --disable-static \
+%configure --disable-static \
              --libdir=%{_datadir} \
              --without-xmlto
 
