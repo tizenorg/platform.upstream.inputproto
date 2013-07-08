@@ -1,0 +1,8 @@
+Change-Id: Ib32512559be6e8537a1396264308d5c64525283b
+Code-Review+2: Ryan Ware <ware@linux.intel.com>
+Verified+1: Ryan Ware <ware@linux.intel.com>
+Submitted-by: Ryan Ware <ware@linux.intel.com>
+Submitted-at: Mon, 08 Jul 2013 09:40:55 -0700
+Reviewed-on: https://review.tizen.org/gerrit/4725
+Project: platform/upstream/inputproto
+Branch: refs/heads/tizen
