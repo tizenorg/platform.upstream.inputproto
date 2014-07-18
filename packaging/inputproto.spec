@@ -1,3 +1,5 @@
+%bcond_with x
+
 Name:           inputproto
 Version:        2.3
 Release:        1
